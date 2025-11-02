@@ -3,7 +3,7 @@ function Head({ algorithm }) {
         <>
             <div className="items-center justify-between mb-7">
                 <h2 className="text-2xl font-semibold text-center">
-                    Minimum Spannin Tree Visualizer
+                    Minimum Spanning Tree Visualizer
                 </h2>
                 <div className="text-sm text-slate-300">
                     Algorithm:{" "}
