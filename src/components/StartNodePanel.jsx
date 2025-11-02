@@ -10,7 +10,7 @@ export default function StartNodePanel({
   if (algorithm !== "prim") return null; // only show for Prim’s algorithm
 
   return (
-    <div className="bg-slate-900/40 border border-slate-700 p-4 rounded-2xl">
+    <div className="bg-slate-900/40 border border-slate-700 p-4 rounded-2xl min-w-[271px] shadow w-3">
       <h3 className="text-lg font-semibold text-slate-200 mb-2">Start Node</h3>
 
       <div className="text-sm text-slate-400 mb-3">

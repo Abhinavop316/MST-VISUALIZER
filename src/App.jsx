@@ -7,7 +7,7 @@ import MSTVisualizer from "./components/MSTVisualizer";
 
 export default function App() {
   return (
-    <div className="min-h-screen h-full flex-1 flex-wrap bg-gradient-to-br from-slate-900  text-slate-100 p-6">
+    <div className="min-h-screen h-full min-w-screen w-full flex-1 flex-wrap bg-gradient-to-br from-slate-900  text-slate-100 p-6">
       <MSTVisualizer />
     </div>
   );

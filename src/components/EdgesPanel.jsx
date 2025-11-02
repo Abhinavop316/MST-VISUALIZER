@@ -3,7 +3,7 @@ import { MdDelete } from "react-icons/md";
 
 const EdgesPanel = ({ edges, setEdges }) => {
   return (
-    <div className="bg-slate-900/60 rounded-2xl p-4 shadow border border-slate-700 overflow-auto max-h-[240px]">
+    <div className="bg-slate-900/60 rounded-2xl p-4 shadow border border-slate-700 overflow-auto max-h-[240px] min-w-[271px] shadow w-3 .scrollbar-hide">
       <h4 className="text-lg font-semibold mb-2">Edges</h4>
       <div className="text-sm text-slate-400 mb-2">
         Click 'Remove' to delete an edge

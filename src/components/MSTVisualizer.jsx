@@ -350,7 +350,7 @@ function onNodeClick(id) {
   return (
     <div className="flex flex-wrap justify-center gap-6 min-w-[450px] ">
       {/* Main Canvas */}
-      <div className="min-w-[518px] col-span-8 bg-slate-900/40 rounded-2xl p-4 shadow border border-slate-700">
+      <div className="min-w-[363px] col-span-8 bg-slate-900/40 rounded-2xl p-4 shadow border border-slate-700">
         <Head algorithm={algorithm} />
         {invalidStart && algorithm === "prim" && (
           <div className="mb-3 text-red-400 text-center font-medium">
